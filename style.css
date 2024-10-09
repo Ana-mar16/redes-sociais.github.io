@@ -70,4 +70,14 @@ footer {
     width: 100%;
     height: 3rem;
     margin-top: 2rem;
+
+    const data = [
+  {
+    x: 'nomeDasRedes',
+    y: quantidadeDeUsuarios,
+    type: 'bar',
+    marker: {
+      color: getComputedStyle(document.body).getPropertyValue('--primary-color')
+    }
+]
 }
